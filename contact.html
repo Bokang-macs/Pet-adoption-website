@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Dog Adoption Nelspruit</title>
+  <style>
+    /* General Body */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: rgb(249, 249, 249);
+      color: #333;
+      padding-top: 70px; /* prevents nav from covering content */
+     }
+
+    /* Header */
+    header {
+      background: rgb(0, 68, 102);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      position: fixed;   /* keep it in place */
+      top: 0;
+      left: 0;
+      width: 100%;       /* stretch across the page */
+      z-index: 1000;     /* stay above other content */
+      padding-top: 75px; /* space for fixed header */
+     }
+
+     /* Navigation Bar */
+     nav {
+      background: rgb(0, 102, 153);
+      position: fixed;   /* keep it in place */
+      top: 0;
+      left: 0;
+      width: 100%;       /* stretch across the screen */
+      z-index: 1000;     /* stay above other content */
+     }
+
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 27px 0;
+    }
+
+    nav ul li {
+      margin: 0 20px;
+    }
+
+    nav ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 3.0s,color 3.0s;
+    }
+
+    nav ul li a:hover {
+      background: rgb(255, 255, 255);
+      color: rgb(0, 102, 153);
+    }
+
+    /* Hero Section */
+    .hero {
+      text-align: center;
+      background: rgb(204, 230, 255);
+      padding: 30px 20px;
+    }
+
+    .hero h1 {
+      color: rgb(0, 68, 102);
+      margin-bottom: 10px;
+      padding-top:98px ;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    /* Contact Info Section */
+    section {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    section h2 {
+      text-align: center;
+      color: rgb(0, 68, 102);
+      margin-bottom: 15px;
+    }
+
+    .contact-card {
+      background: rgb(255, 255, 255);
+      padding: 15px;
+      margin: 15px 0;
+      border-radius: 10px;
+      text-align: center;
+    }
+
+    .contact-card p {
+      margin: 5px 0;
+    }
+
+    /* Contact Form */
+    .contact-form {
+      background: rgb(242, 242, 242);
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: 30px auto;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 90%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid rgb(204, 204, 204);
+      font-size: 1rem;
+    }
+
+    .contact-form button {
+      padding: 10px 20px;
+      background: rgb(0, 68, 102);
+      color: rgb(255, 255, 255);
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 1.0s,color 1.0s;
+    }
+
+    .contact-form button:hover {
+      background: rgb(161, 119, 187);
+    }
+
+    /* Social Links */
+    .social {
+      text-align: center;
+      margin: 20px 0;
+    }
+
+    .social a {
+      margin: 0 10px;
+      color: rgb(0, 102, 153);
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .social a:hover {
+      color: rgb(0, 68, 102);
+    }
+
+    /* Footer */
+    footer {
+      background: rgb(0, 68, 102);
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Dog Adoption Nelspruit</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="team.html">Team</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero -->
+  <div class="hero">
+    <h1>Reach Out Today!</h1>
+    <p>We're here to help you adopt your perfect furry friend in Nelspruit.</p>
+  </div>
+
+  <!-- Contact Info -->
+  <section>
+    <h2>Our Contacts</h2>
+    <div class="contact-card">
+      <h3>Pro-Life Pet Rescue</h3>
+      <p><strong>Phone:</strong> 079 498 7971</p>
+      <p><strong>Email:</strong> prolifepetrescue1@gmail.com</p>
+      <p><strong>Address:</strong> R40 Barberton Rd, near Chimp Eden</p>
+    </div>
+  </section>
+
+      
+
+
+  <!-- Contact Form -->
+  <section class="contact-form">
+    <form>
+      <h2>Send Us a Message</h2>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Your Phone">
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Social Links -->
+  <div class="social">
+    <a href="#">🐾 Facebook</a>
+    <a href="#">📸 Instagram</a>
+    <a href="#">💬 WhatsApp</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Pet Adoption. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
